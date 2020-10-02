@@ -1,7 +1,9 @@
 from __future__ import division
-import numpy as np
-import cv2
+
 import os
+
+import cv2
+import numpy as np
 
 target_img = cv2.imread('./model.png', cv2.IMREAD_UNCHANGED)
 image_list = []
